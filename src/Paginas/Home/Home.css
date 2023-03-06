@@ -1,15 +1,18 @@
-.titulo{
-    color:blue;
-    text-align: center;
+.caixa{
+    background-color: #FF8C00;
 }
 
-.img{
-    width: 500px; 
-    height: 300px;
-    display:block;
-    margin: 0 auto;
+.titulo{
+   color: white !important;
+   font-weight: bold !important;
 }
-.Grid{
-    background-color: yellow;
-    color: yellow;
+
+.botao{
+    border-color: white !important;
+    background-color: #FF8C00;
+    color: white !important;
+}
+
+.postagens{
+    background-color: white;
 }
