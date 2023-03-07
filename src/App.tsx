@@ -5,7 +5,7 @@ import Footer from './components/estaticos/footer/Footer';
 import Home from './Paginas/Home/Home';
 import './App.css';
 import Login from './Paginas/Login/Login';
-
+import CadastroUsuario from './Paginas/CadastroUsuario/CadastroUsuario';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
 
         <Route path="/login" element={<Login />} />
 
-        <Route path="/cadastrousuario" element={<CadastroUsuario/>} />
+        <Route path="/cadastrousuario" element={<CadastroUsuario />} />
 
       </Routes>
       <Footer />
@@ -27,3 +27,5 @@ function App() {
 
   );
 }
+
+export default App;
